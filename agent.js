@@ -18,6 +18,6 @@ if (browser.indexOf('iphone') >= 0) {
 if (browser.indexOf('firefox') >= 0) {
     html.classList.add('firefox');
 }
-if (browser.indexOf('safari') >= 0) {
+if (browser.indexOf('safari/') >= 0) {
     html.classList.add('safari');
 }
