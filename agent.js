@@ -16,8 +16,9 @@ if (browser.indexOf('iphone') >= 0) {
     html.classList.add('iphone');
 }
 if (browser.indexOf('firefox') >= 0) {
+    html.classList.remove('msie');
     html.classList.add('firefox');
 }
-if (browser.indexOf('safari') >= 0 && browser.indexOf('macintosh') >= 0) {
+if (browser.indexOf('safari') >= 0 && browser.indexOf('macintosh') >= 0 && browser.indexOf('chrome') < 0) {
     html.classList.add('safari');
 }
