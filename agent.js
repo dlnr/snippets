@@ -1,7 +1,6 @@
 var html = document.documentElement;
 var ie = false;
 var browser = navigator.userAgent.toLowerCase();
-html.classList.remove('no-js');
 html.className = 'js';
 
 if (browser.indexOf('msie') >= 0 || browser.indexOf('wow64') >= 0) {
